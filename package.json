@@ -1,0 +1,12 @@
+{
+  "name": "micro-crm",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix Backend\" \"npm run dev --prefix Frontend\"",
+    "dev:be": "npm run dev --prefix Backend",
+    "dev:fe": "npm run dev --prefix Frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

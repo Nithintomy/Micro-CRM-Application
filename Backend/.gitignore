@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# Environment files (ignore real envs)
+.env
+.env.local
+.env.development
+.env.production
+
+# Allow example env files
+!.env.example
+
+# Logs
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# OS
+.DS_Store

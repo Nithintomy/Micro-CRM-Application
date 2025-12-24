@@ -1,0 +1,8 @@
+const path = require('path');
+
+module.exports = {
+  config: path.resolve('metastore/config/config.json'),
+  'migrations-path': path.resolve('metastore/migrations'),
+  'models-path': path.resolve('metastore/models'),
+  'seeders-path': path.resolve('metastore/seeders'),
+};
